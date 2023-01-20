@@ -1,0 +1,246 @@
+/* corps de la page */
+body{
+    margin: 0;
+}
+
+/* 1ere section */
+.container-profils{
+    background-image: url(vibz-assets/white_pink_split_background.png);
+    padding:20px;
+    background-size: cover;
+}
+
+/* Position des titres */
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    word-spacing: 0px;
+}
+
+/* Chemin d'animation */
+#motionPath{
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    scale: 1.4;
+    top: 60%;
+}
+    
+/* Taille des images des coachs */
+img{
+    width: 100px;
+    border-radius: 120px;
+}
+/* Image danseur */
+.dancer{
+    position: absolute;
+}
+
+/* Position de la grille constitué d'images */
+.grid{
+    display: grid;
+    gap: 30px ;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Position et taille du texte de la grille */
+.grid p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Animation photo */
+#photo1{
+    grid-area: a;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+}
+
+/* Animation photo */
+#photo2{
+    grid-area: b;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo3{
+    grid-area: c;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo4{
+    grid-area: d;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo5{
+    grid-area: e;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo6{
+    grid-area: f;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo7{
+    grid-area: g;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo8{
+    grid-area: h;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Animation photo */
+#photo9{
+    grid-area: i;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+/* Paragraphes */
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding:auto,
+}
+
+/* Position de texte */
+.text{
+    padding-top: 70px;
+    margin-top: 45px;
+}
+
+/* Animation de grossissement titre */
+.zoom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 1;
+}
+
+/* 2eme section - changement de couleur d'arrière plan */
+#tabletIphone{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+}
+
+/* Partie contenant l'ipad et l'iphone */
+.mobile{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+/* Position 1er icon */
+.blue-icon-first{
+    width: 8vw;
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+    scale: 1.5;
+}
+
+/* Position 2eme icon */
+.blue-icon-second{
+    width: 8vw;
+    position: absolute;
+    top: 25%;
+    z-index: 0;
+    scale: 1.5;
+}
+
+/* Position Ipad */
+.tablet{
+    height: 500px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0%;
+    scale: 1;
+    margin-top: 20px;
+}
+
+/* Position Iphone */
+.iphone{
+    height: 500px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0%;
+    scale: 1;
+}
+
+/* Position div contenant boutton  */
+.button{
+    display: block;
+    box-sizing: border-box;
+    margin-left: 35%;
+    margin-bottom: 20%;
+}
+
+/* Position boutton Apple Store */
+.button-IOS{
+    border-radius: 1px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 12px;
+}
+
+/* Position boutton Google Play */
+.button-google{
+    border-radius: 1px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+/* Espace sous les icones google et Ios */
+ .space{
+    width: 100%;
+    height: 100vh;
+ }   
